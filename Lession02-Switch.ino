@@ -5,7 +5,7 @@
 int tempo = 144;
 
 
-int buzzer = 11;
+int buzzer = 13;
 
 int noteDuration[] ={
 
@@ -112,8 +112,8 @@ void setup() {
   
 
   PlayMusic = false;
-  pinMode( 4 , INPUT );
-  pinMode( 5 , OUTPUT );
+  pinMode( 14 , INPUT );
+  pinMode( 13 , OUTPUT );
 
   Current = millis();
   LastTime = CurrentTime ; 
